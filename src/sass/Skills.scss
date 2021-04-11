@@ -1,0 +1,9 @@
+@import "./colors";
+
+#container-skills {
+  grid-area: site-skills;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

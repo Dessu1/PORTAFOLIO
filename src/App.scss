@@ -1,0 +1,32 @@
+/* FONT RUBIK - 300/400/600 */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
+
+/* SCSS DEL COMPONENTE NAVBAR */
+@import "./sass/Navbar.scss";
+/* SCSS DEL COMPONENTE PROJECTS */
+@import "./sass/Projects.scss";
+/* SCSS DEL COMPONENTE SKILLS */
+@import "./sass/Skills.scss";
+/* SCSS DEL COMPONENTE CONTACT */
+@import "./sass/Contact.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.site {
+  display: grid;
+  grid-template-areas:
+    "site-navbar"
+    "site-projects"
+    "site-skills"
+    "site-contact";
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+}
