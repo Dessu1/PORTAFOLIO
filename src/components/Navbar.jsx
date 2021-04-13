@@ -1,13 +1,14 @@
 import React from "react";
+import { Link, NavLink, withRouter } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div id='container-navbar'>
       <nav className='navbar'>
-        <a href='#about-me'>Sobre Mi</a>
-        <a href='#aside'>Proyectos</a>
+        <a href='#'>Sobre Mi</a>
+        <a href='#project-1'>Proyectos</a>
         <a href='#container-skills'>Habilidades</a>
-        <a href='#'>Contactame</a>
+        <a href='#'>Experiencia</a>
       </nav>
 
       <div className='content-navbar'>
@@ -28,4 +29,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);
