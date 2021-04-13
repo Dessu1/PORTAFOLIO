@@ -2,8 +2,108 @@
 
 #container-skills {
   grid-area: site-skills;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 60%;
+  background: $bgContet;
+  margin-left: 8%;
+  border-radius: 1rem;
+  padding-bottom: 3rem;
+
+  display: grid;
+  grid-template-areas:
+    "tittle tittle"
+    "left right";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4rem 1fr;
+
+  .tittle {
+    grid-area: tittle;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .container-left {
+    grid-area: left;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-right {
+    grid-area: right;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  li {
+    margin-left: 10%;
+    width: 75%;
+    list-style: none;
+
+    p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      .percent {
+        font-size: 1.8rem;
+        margin-left: 1.4rem;
+        letter-spacing: 0.1rem;
+
+        span {
+          font-size: 0.9rem;
+          margin-left: -0.5rem;
+        }
+      }
+    }
+
+    .bar {
+      background: #353b48;
+      display: block;
+      height: 0.2rem;
+      border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      border-radius: 0.1rem;
+      overflow: hidden;
+      box-shadow: 0 0 10px #2187e7b3;
+
+      span {
+        height: 1rem;
+        float: left;
+        background: #2187e7;
+      }
+
+      .html {
+        width: 90%;
+      }
+      .css {
+        width: 75%;
+      }
+      .sass {
+        width: 65%;
+      }
+      .git {
+        width: 65%;
+      }
+      .reactjs {
+        width: 70%;
+      }
+      .nodejs {
+        width: 40%;
+      }
+      .javascript {
+        width: 75%;
+      }
+      .firebase {
+        width: 65%;
+      }
+    }
+  }
 }

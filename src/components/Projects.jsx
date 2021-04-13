@@ -18,7 +18,9 @@ const Projects = () => {
         </div>
 
         <div className='container-chika'>
-          <img src='https://i.imgur.com/Wh9cqBq.gif' alt='chika-dance' />
+          <a href='#'>
+            <img src='https://i.imgur.com/Wh9cqBq.gif' alt='chika-dance' />
+          </a>
         </div>
 
         <div className='container-project'>
