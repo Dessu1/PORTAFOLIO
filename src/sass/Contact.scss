@@ -5,4 +5,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 3.5rem;
+  margin-top: 1.5rem;
+  background: $bgcolor;
+
+  a {
+    font-size: 2rem;
+    color: $txtWhite;
+    margin-right: 8rem;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: $txtIndices;
+    }
+  }
 }

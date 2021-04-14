@@ -8,7 +8,7 @@ const Navbar = () => {
         <a href='#'>Sobre Mi</a>
         <a href='#project-1'>Proyectos</a>
         <a href='#container-skills'>Habilidades</a>
-        <a href='#'>Experiencia</a>
+        <a href='#container-contact'>Contactame</a>
       </nav>
 
       <div className='content-navbar'>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <span>!Hola!</span>
           <span>
             Me llamo Dessu y este es mi portafolio personal donde encontraras
-            todo sobre mi
+            algunas cosas sobre mi
           </span>
           <span>!Espero que lo disfrutes!</span>
         </div>

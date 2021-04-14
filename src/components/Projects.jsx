@@ -10,10 +10,9 @@ const Projects = () => {
             <h3 className='tittle'>Proyectos</h3>
 
             <nav className='indices'>
-              <a href='#project-1'>Proyecto 1</a>
-              <a href='#project-2'>Proyecto 2</a>
-              <a href='#project-3'>Proyecto 3</a>
-              <a href='#project-4'>Proyecto 4</a>
+              <a href='#project-1'>Tesis de Grado</a>
+              <a href='#project-2'>Curso en VR</a>
+              <a href='#project-3'>Carrito de Compras</a>
             </nav>
           </aside>
         </div>
@@ -26,76 +25,63 @@ const Projects = () => {
 
         <div className='container-project'>
           <div id='project-1' className='content-project'>
-            <h2 className='tittle'>Proyecto 1</h2>
+            <h2 className='tittle'>tesis de grado</h2>
             <div className='container-span'>
               <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia commodi officia alias in ut optio, quas enim obcaecati
-                tempora? Magnam eligendi quae quaerat provident? Nemo,
-                aspernatur libero? Non, eaque consequatur.
+                Desarrollo de plataforma web para brindar un contenido 3D
+                mediante el uso de ThreeJs y ReactJs.
+                <br />
+                <br />
+                Con el cual poder dar soporte a las actividades de bienestar de
+                la universidad Santiago de Cali, en tiempos de pandemia.
               </span>
 
               <div className='desc'>
-                <span>Desarrollador: Dessu1</span>
+                <span>Desarrolladores: Dessu1 - Sirzes02</span>
               </div>
             </div>
             <div className='project-img'>
-              <img src='https://i.imgur.com/8jURoR5.jpg' alt='project-img' />
+              <img src='https://i.imgur.com/tfenuqW.png' alt='project-img' />
             </div>
           </div>
 
           <div id='project-2' className='content-project'>
-            <h2 className='tittle'>Proyecto 2</h2>
+            <h2 className='tittle'>CURSO EN RV</h2>
             <div className='container-span'>
               <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia commodi officia alias in ut optio, quas enim obcaecati
-                tempora? Magnam eligendi quae quaerat provident? Nemo,
-                aspernatur libero? Non, eaque consequatur.
+                Desarrollo de plataforma web con soporte de realidad virtual
+                mediante el uso de ThreeJs para brindar una ayuda a los
+                estudiantes de química de primer semestre.
+                <br />
+                <br />
+                Estuve encargado de la parte lógica junto a un pequeño grupo de
+                desarrollo.
               </span>
               <div className='desc'>
-                <span>Desarrollador: Dessu1</span>
+                <span>Participante: Dessu1</span>
               </div>
             </div>
             <div className='project-img'>
-              <img src='https://i.imgur.com/8jURoR5.jpg' alt='project-img' />
+              <img src='https://i.imgur.com/Igtr9U0.png' alt='project-img' />
             </div>
           </div>
 
           <div id='project-3' className='content-project'>
-            <h2 className='tittle'>Proyecto 3</h2>
+            <h2 className='tittle'>Carrito de compras</h2>
             <div className='container-span'>
               <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia commodi officia alias in ut optio, quas enim obcaecati
-                tempora? Magnam eligendi quae quaerat provident? Nemo,
-                aspernatur libero? Non, eaque consequatur.
+                Plataforma web para brindar un servicio de carrito de compras
+                mediante el uso de HTML 5 y Javascript.
+                <br />
+                <br />
+                Cuanta con la facilidad de ser aplicada a tiendas virtuales.
               </span>
               <div className='desc'>
                 <span>Desarrollador: Dessu1</span>
               </div>
             </div>
             <div className='project-img'>
-              <img src='https://i.imgur.com/8jURoR5.jpg' alt='project-img' />
-            </div>
-          </div>
-
-          <div id='project-4' className='content-project'>
-            <h2 className='tittle'>Proyecto 4</h2>
-            <div className='container-span'>
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia commodi officia alias in ut optio, quas enim obcaecati
-                tempora? Magnam eligendi quae quaerat provident? Nemo,
-                aspernatur libero? Non, eaque consequatur.
-              </span>
-
-              <div className='desc'>
-                <span>Desarrollador: Dessu1</span>
-              </div>
-            </div>
-            <div className='project-img'>
-              <img src='https://i.imgur.com/8jURoR5.jpg' alt='project-img' />
+              <img src='https://i.imgur.com/NjDtM3Q.png' alt='project-img' />
             </div>
           </div>
         </div>
